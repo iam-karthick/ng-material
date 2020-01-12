@@ -1,0 +1,16 @@
+CSS
+.example-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.example-container > * {
+  width: 100%;
+}
+.row{
+    padding: 5%;
+    border: 2px solid;
+}
+.pull-right button{
+    float: right;
+}

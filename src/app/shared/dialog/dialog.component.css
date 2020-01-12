@@ -1,0 +1,9 @@
+form mat-form-field{
+    float: left;
+    width: 100%;
+    padding-top: 5px;
+}
+form,h3{
+    width: 50%;
+    padding-left: 10%;
+}

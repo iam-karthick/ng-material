@@ -1,0 +1,32 @@
+<form [formGroup]="userData" >
+    <mat-form-field>
+        <input matInput type="text" placeholder="First Name" formControlName="fname" name="" id="">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput type="text" placeholder="last Name" formControlName="lname" name="" id="">
+        <mat-error >Require filed</mat-error>
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput type="email" placeholder="Email" formControlName="email" name="" id="">
+        <mat-error >Require filed</mat-error>
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput type="phone" placeholder="Phone" formControlName="phone" name="" id="">
+        <mat-error >Require filed</mat-error>
+    </mat-form-field>
+    <!-- <mat-form-field>
+        <input matInput formControlName="date" [matDatepicker]="date" placeholder="Choose a date">
+        <mat-datepicker-toggle matSuffix [for]="date"></mat-datepicker-toggle>
+        <mat-datepicker #date></mat-datepicker>
+        <mat-error >Require filed</mat-error>
+    </mat-form-field> -->
+    <!-- <mat-form-field>
+        <textarea matInput formControlName="address"  placeholder="Description" name="" id="" cols="3" rows="3" required></textarea>
+        <mat-error >Require filed</mat-error>
+    </mat-form-field> -->
+    <!-- <mat-form-field> -->
+        <button [disabled]="!userData.valid"mat-raised-button color="primary" (click)="onSubmit()">Submit</button>
+    <!-- </mat-form-field> -->
+    <!-- <button [disabled]="!userData.valid"mat-raised-button color="primary" (click)="onEdit()">Edit</button> -->
+
+</form>
